@@ -61,7 +61,7 @@ var artist = process.argv[4]
 //         };
 // }
 
-
+// omdb movie query fx
     if(operator === "movie"){
         axios.get("http://www.omdbapi.com/?t="+ title +"&y=&plot=short&apikey=trilogy").then(
         function(response) {
@@ -75,21 +75,25 @@ var artist = process.argv[4]
             logThis("Cast: " + response.data.Actors +" " + '\n');
         })
     };
-    
+    //spotify query fx
     if(operator === "music"){
         var spotify = new Spotify({
             id:"4276b33108104780adc1e7b9cd3d1bd6",
             secret:"4904a18b733543d59d2c38278a02b608"
         });
-            spotify.search({ type: 'track', query: title })
-            .then(function(response){
-                console.log(response);
-            })
-            .catch(function(err){
-                console.log(err);
-            })
+        spotify.search({type: "track", query: title}, function(err, data) {
+            if (err) {
+                logThis(err);
+            }
+            var userSong = data.tracks.items;
+            console.log("Artist: " + userSong[0].artists[0].name)
+            logThis("Artist: " + userSong[0].artists[0].name+" " + '\n');
+            logThis("Song Name: " + userSong[0].name+" " + '\n');
+            logThis("Preview Link: " + userSong[0].preview_url+" " + '\n');
+            logThis("Album: " + userSong[0].album.name+" " + '\n');
+        });
                 
-    }
+    };
 
 
 
