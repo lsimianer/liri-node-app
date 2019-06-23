@@ -95,6 +95,19 @@ var artist = process.argv[4]
                 
     };
 
+    if(operator === "concert"){
+        axios.get("https://rest.bandsintown.com/artists/" + title + "/events?app_id=" + keys.bands.id)
+    .then(function(response) {
+        for (var i = 0; i < response.data.length; i++) {
+
+            logThis("Venue Name: "+ response.data[i].venue.name);
+            logThis("Venue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
+            logThis("Date of the Event: " + moment(response.data[i].datetime).format("L"));
+        }
+    });
+
+    }
+
 
 
 
