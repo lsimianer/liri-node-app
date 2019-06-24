@@ -1,15 +1,20 @@
-Venue Name: Summer SonicVenue Location: Tokyo, JapanVenue Name: Summer SonicDate of the Event: 08/16/2019Venue Location: Osaka, JapanDate of the Event: 08/18/2019Venue Location: Tokyo, JapanVenue Name: Summer SonicVenue Name: Summer Sonic
-Venue Location: Tokyo, Japan
-Date of the Event: 08/16/2019
-Date of the Event: 08/18/2019
-Venue Name: Summer Sonic
-Venue Location: Osaka, Japan
-Venue Name: Summer SonicDate of the Event: 08/16/2019Venue Name: Summer SonicVenue Location: Osaka, JapanDate of the Event: 08/18/2019Venue Location: Tokyo, JapanTitle: Remember the Titans 
-Year Released: 2000 
-Plot: The true story of a newly appointed African-American coach and his high school team on their first season as a racially integrated unit. 
-Cast: Denzel Washington, Will Patton, Wood Harris, Ryan Hurst 
-IMDB rating: 7.8 
-Artist: Queen 
-Song Name: We Will Rock You - Remastered 
-Album: News Of The World (Deluxe Remastered Version) 
+
+Title: The Terminator 
+Year Released: 1984 
+Cast: Arnold Schwarzenegger, Michael Biehn, Linda Hamilton, Paul Winfield 
+IMDB rating: 8.0 
+Plot: A seemingly indestructible robot is sent from 2029 to 1984 to assassinate a young waitress, whose unborn son will lead humanity in a war against sentient machines, while a human soldier from the same war is sent to protect her at all costs. 
+Title: Mulan 
+Year Released: 1998 
+Plot: To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process. 
+IMDB rating: 7.6 
+Cast: Miguel Ferrer, Harvey Fierstein, Freda Foh Shen, June Foray 
+Artist: Shaggy 
+Song Name: It Wasn't Me 
+Album: The Boombastic Collection - Best of Shaggy 
 Preview Link: null 
+Artist: blink-182 
+Song Name: All The Small Things 
+Album: Enema Of The State 
+Preview Link: null 
+Venue Name: Summer SonicDate of the Event: 08/16/2019Venue Location: Osaka, JapanVenue Name: Summer SonicVenue Location: Tokyo, JapanDate of the Event: 08/18/2019Venue Name: PNC Bank Arts CenterVenue Location: Holmdel, United StatesVenue Name: Xfinity CenterVenue Location: Boston, United StatesDate of the Event: 07/11/2019Venue Name: BB & T PavilionDate of the Event: 07/13/2019Venue Name: Darling's Waterfront PavilionVenue Location: Bangor, United StatesVenue Name: Xfinity TheatreDate of the Event: 07/18/2019Venue Location: Hartford, United StatesVenue Location: Philadelphia, United StatesVenue Name: Northwell Health at Jones Beach TheaterDate of the Event: 07/12/2019Venue Location: Jones Beach, United StatesVenue Name: Veterans United Home Loans AmphitheaterDate of the Event: 07/20/2019Venue Location: Virginia Beach, United StatesDate of the Event: 07/19/2019Venue Name: Coastal Credit Union Music Park At Walnut CreekDate of the Event: 07/26/2019Venue Location: Raleigh, United StatesVenue Location: Charlotte, United StatesDate of the Event: 07/25/2019Venue Name: PNC Music PavilionVenue Name: Riverbend Music CenterDate of the Event: 08/01/2019Venue Name: KeyBank PavilionVenue Location: Cincinnati, United StatesVenue Location: Burgettstown, United StatesVenue Name: Jiffy Lube LiveVenue Location: Bristow, United StatesDate of the Event: 07/27/2019Venue Name: Hollywood Casino AmphitheatreDate of the Event: 08/03/2019Venue Location: Saint Francisville, United StatesVenue Name: Hollywood Casino AmphitheatreDate of the Event: 08/08/2019Venue Location: Chicago, United StatesDate of the Event: 08/09/2019Venue Location: Clarkston, United StatesDate of the Event: 08/10/2019Venue Name: St. Joseph’s Health Amphitheater at LakeviewVenue Location: Syracuse, United StatesVenue Name: DTE Energy Music TheatreVenue Name: The Pavilion at Montage MountainVenue Location: Scranton, United StatesDate of the Event: 08/02/2019Date of the Event: 08/16/2019Venue Name: Hersheypark StadiumVenue Location: Hershey, United StatesVenue Name: DTE Energy Music TheatreVenue Location: Detroit, United StatesDate of the Event: 08/22/2019Date of the Event: 08/17/2019Venue Location: Cleveland, United StatesDate of the Event: 08/23/2019Date of the Event: 08/15/2019Venue Name: Darien Lake AmphitheaterDate of the Event: 08/24/2019Venue Name: Blossom Music CenterVenue Name: Coral Sky AmphitheatreVenue Location: West Palm Beach, United StatesVenue Name: MIDFLORIDA Credit Union AmphitheatreVenue Location: Tampa, United StatesDate of the Event: 08/30/2019Venue Name: Cellairis Amphitheatre at LakewoodVenue Location: Atlanta, United StatesDate of the Event: 08/31/2019Venue Name: The BrickyardVenue Location: Indianapolis, United StatesDate of the Event: 08/29/2019Venue Location: Darien Center, United StatesVenue Location: Salt Lake City, United StatesDate of the Event: 09/12/2019Venue Name: USANA AmphitheatreVenue Name: Fiddler's Green AmphitheatreVenue Location: Denver, United StatesDate of the Event: 09/13/2019Venue Name: Isleta AmphitheaterVenue Location: Albuquerque, United StatesVenue Name: AK Chin PavilionDate of the Event: 09/07/2019Venue Location: Phoenix, United StatesVenue Name: North Island Credit Union AmphitheaterVenue Location: San Diego, United StatesDate of the Event: 09/19/2019Venue Name: Glen Helen AmphitheaterDate of the Event: 09/14/2019Venue Location: San Bernardino, United StatesDate of the Event: 09/21/2019Venue Location: Sacramento, United StatesVenue Name: Toyota AmphitheatreVenue Name: Shoreline AmphitheatreDate of the Event: 09/26/2019Venue Location: Mountain View, United StatesVenue Name: FivePoint AmphitheatreDate of the Event: 09/27/2019Venue Location: Irvine, United StatesDate of the Event: 09/28/2019Venue Location: Las Vegas, United StatesVenue Name: Zappos TheaterDate of the Event: 09/20/2019Venue Name: Zappos TheaterVenue Location: Las Vegas, United StatesDate of the Event: 11/06/2019Venue Location: Las Vegas, United StatesDate of the Event: 11/09/2019Venue Name: Zappos TheaterVenue Name: Zappos TheaterDate of the Event: 11/12/2019Venue Location: Las Vegas, United StatesDate of the Event: 11/08/2019

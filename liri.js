@@ -7,9 +7,9 @@ var Spotify = require('node-spotify-api');
 var moment = require('moment');
 
 
-var operator = process.argv[2]
-var title = process.argv[3]
-var artist = process.argv[4]
+// var operator = process.argv[2];
+// var title = process.argv[3];
+// var artist = process.argv[4];
 // lets have some fun with inquirer
 inquirer
 .prompt([
@@ -19,11 +19,10 @@ inquirer
         name:"username"
     },
     {
-        type: "checkbox",
-        message: "what kind of fun do you want to have?",
-        choices: ["Movie","Music","Concerts"],
+        type: "input",
+        message: "what kind of fun do you want to have? Type in movie, music, or concert",
         name: "operator",
-        default: false
+
     },
     {
         type:"input",
@@ -38,17 +37,20 @@ inquirer
     }    
 ])
 .then(function(inquirerResponse) {
-    // If the inquirerResponse confirms, we displays the inquirerResponse's username and pokemon from the answers.
-    if (inquirerResponse.confirm) {
-      console.log("\nWelcome " + inquirerResponse.username);
-    }
+    
+    console.log("\nWelcome " + inquirerResponse.username + ", and Thank you for using LIRI today.")
+      console.log("\nI understand you want to find a " + inquirerResponse.operator + " titled " + inquirerResponse.title )
+      
+
+      var operator = inquirerResponse.operator
+      var title = inquirerResponse.title
 
 
 // omdb movie query fx
-    if(operator === "Movie"){
-        axios.get("http://www.omdbapi.com/?t="+ title +"&y=&plot=short&apikey=trilogy").then(
+    if(operator === "movie"){
+        axios.get("http://www.omdbapi.com/?t="+ "'"+title+"'" +"&y=&plot=short&apikey=trilogy").then(
         function(response) {
-            // console.log(response);
+        // console.log(response);
             console.log("The movie was released: " + response.data.Year);
             console.log("The movie's rating is: " + response.data.imdbRating);
             logThis("Title: " + response.data.Title +" " + '\n');
@@ -56,6 +58,8 @@ inquirer
             logThis("IMDB rating: " + response.data.imdbRating +" " + '\n');
             logThis("Plot: " + response.data.Plot +" " + '\n');
             logThis("Cast: " + response.data.Actors +" " + '\n');
+            console.log("Thank you for using LIRI")
+
         })
     };
     //spotify query fx
@@ -64,7 +68,7 @@ inquirer
             id:"4276b33108104780adc1e7b9cd3d1bd6",
             secret:"4904a18b733543d59d2c38278a02b608"
         });
-        spotify.search({type: "track", query: title}, function(err, data) {
+        spotify.search({type: "track", query: "'"+title+"'"}, function(err, data) {
             if (err) {
                 logThis(err);
             }
@@ -74,10 +78,11 @@ inquirer
             logThis("Song Name: " + userSong[0].name+" " + '\n');
             logThis("Preview Link: " + userSong[0].preview_url+" " + '\n');
             logThis("Album: " + userSong[0].album.name+" " + '\n');
-        });
-                
-    };
+            console.log("Thank you for using LIRI")                
 
+        });
+    };
+// begin bands in town code
     if(operator === "concert"){
         axios.get("https://rest.bandsintown.com/artists/" + title + "/events?app_id=codingbootcamp")
     .then(function(response) {
@@ -90,10 +95,12 @@ inquirer
             logThis("Venue Name: "+ response.data[i].venue.name);
             logThis("Venue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
             logThis("Date of the Event: " + moment(response.data[i].datetime).format("L"));
+            console.log("Thank you for using LIRI")
         }
     });
 
-    }
+    
+};
 
     function logThis (logQuery) {
 
@@ -105,3 +112,5 @@ inquirer
             }
         });
     };
+
+})
