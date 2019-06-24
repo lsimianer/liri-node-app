@@ -11,6 +11,7 @@ liri.js is the file in the repo with the program I built. At the top the variabl
 ### THE RESULT
 I first got the code functional and having learned about Inquirer today in class I decided to improve upon my functional code and have inquirer 
 prompt the user for me. I ran into trouble getting the value to be usable from the checkbox type, so all prompts are inputs aside from the confirm. 
+[View a screen recording of it here!!!](https://drive.google.com/file/d/1Ho41_IgmF8Qq7ozpuFeVEa5DL58nO1Jx/view)
 ### RESOURCES USED
     [NPM](https://www.npmjs.com/)
     [Inquirer](https://www.npmjs.com/package/inquirer)
