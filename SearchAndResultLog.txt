@@ -1,14 +1,15 @@
-Artist: Shaggy 
-Album: The Boombastic Collection - Best of Shaggy 
+Venue Name: Summer SonicVenue Location: Tokyo, JapanVenue Name: Summer SonicDate of the Event: 08/16/2019Venue Location: Osaka, JapanDate of the Event: 08/18/2019Venue Location: Tokyo, JapanVenue Name: Summer SonicVenue Name: Summer Sonic
+Venue Location: Tokyo, Japan
+Date of the Event: 08/16/2019
+Date of the Event: 08/18/2019
+Venue Name: Summer Sonic
+Venue Location: Osaka, Japan
+Venue Name: Summer SonicDate of the Event: 08/16/2019Venue Name: Summer SonicVenue Location: Osaka, JapanDate of the Event: 08/18/2019Venue Location: Tokyo, JapanTitle: Remember the Titans 
+Year Released: 2000 
+Plot: The true story of a newly appointed African-American coach and his high school team on their first season as a racially integrated unit. 
+Cast: Denzel Washington, Will Patton, Wood Harris, Ryan Hurst 
+IMDB rating: 7.8 
+Artist: Queen 
+Song Name: We Will Rock You - Remastered 
+Album: News Of The World (Deluxe Remastered Version) 
 Preview Link: null 
-Song Name: It Wasn't Me 
-Year Released: 2002 
-IMDB rating: 7.1 
-Plot: A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it. 
-Title: The Ring 
-Cast: Naomi Watts, Martin Henderson, David Dorfman, Brian Cox 
-Title: Holes 
-Year Released: 2003 
-Cast: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf 
-IMDB rating: 7.0 
-Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason. 

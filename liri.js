@@ -1,68 +1,51 @@
 // require installed packages
 require('dotenv').config()
-
+var inquirer = require("inquirer");
 var fs = require("fs");
 var axios = require("axios");
 var Spotify = require('node-spotify-api');
-
+var moment = require('moment');
 
 
 var operator = process.argv[2]
 var title = process.argv[3]
 var artist = process.argv[4]
+// lets have some fun with inquirer
+inquirer
+.prompt([
+    {
+        type:"input",
+        message:"Whats your first name?",
+        name:"username"
+    },
+    {
+        type: "checkbox",
+        message: "what kind of fun do you want to have?",
+        choices: ["Movie","Music","Concerts"],
+        name: "operator",
+        default: false
+    },
+    {
+        type:"input",
+        message:"What artist or movie are you looking to see???",
+        name:"title"
+    },
+    {
+        type: "confirm",
+        message: "Are you sure about your answers:",
+        name: "confirm",
+        default: true
+    }    
+])
+.then(function(inquirerResponse) {
+    // If the inquirerResponse confirms, we displays the inquirerResponse's username and pokemon from the answers.
+    if (inquirerResponse.confirm) {
+      console.log("\nWelcome " + inquirerResponse.username);
+    }
 
-// run requests
-
-// for (var i = 4; i < process.argv.length; i++) {
-//     if (i > 4 && i < process.argv.length) {
-//         userQuery += "+" + process.argv[i]; 
-//     }
-//     else {
-//         userQuery += process.argv[i];
-//     }
-// }
-
-// switch (operator) {
-//     case "concert-Artist":
-//         concertThis();
-//         break;
-//     case "spotify-Song-Title":
-//         spotifyThis();
-//         break;
-//     case "movie-Title":
-//         movies();
-//         break;
-//     case "do-it-now":
-//         doThis();
-//         break;
-//     default:
-//         logThis("Please enter a valid search term, such as {concert-Artist},");
-//         logThis("{spotify-Song-Title}, {movie-Title}, or {do-it-now}");
-//         break;
-
-//         function movies() {
-
-//             if (!userQuery) {
-//                 userQuery = "Mr. Nobody";
-//                 logThis("If you haven't watched 'Mr. Nobody,' then you should: <http://www.imdb.com/title/tt0485947/>");
-//                 logThis("It's on Netflix!");
-//             }
-            
-//             axios.get("http://www.omdbapi.com/?t=" + userQuery + "&y=&plot=short&apikey=" + keys.movies.id)
-//             .then(function(response) {
-        
-//                 logThis("Title: " + response.data.Title);
-//                 logThis("Year Released: " + response.data.Year);
-//                 logThis("IMDB rating: " + response.data.imdbRating);
-//                 logThis("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
-//                 logThis("Plot: " + response.data.Plot);
-//                 logThis("Cast: " + response.data.Actors);
-//             });
-//         };
-// }
 
 // omdb movie query fx
-    if(operator === "movie"){
+    if(operator === "Movie"){
         axios.get("http://www.omdbapi.com/?t="+ title +"&y=&plot=short&apikey=trilogy").then(
         function(response) {
             // console.log(response);
@@ -96,9 +79,13 @@ var artist = process.argv[4]
     };
 
     if(operator === "concert"){
-        axios.get("https://rest.bandsintown.com/artists/" + title + "/events?app_id=" + keys.bands.id)
+        axios.get("https://rest.bandsintown.com/artists/" + title + "/events?app_id=codingbootcamp")
     .then(function(response) {
         for (var i = 0; i < response.data.length; i++) {
+
+            var dateFormat = moment(response.data[0].datetime).format("L");
+
+            console.log('Bands In Town Information: \n');
 
             logThis("Venue Name: "+ response.data[i].venue.name);
             logThis("Venue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
@@ -107,12 +94,6 @@ var artist = process.argv[4]
     });
 
     }
-
-
-
-
-
-
 
     function logThis (logQuery) {
 
