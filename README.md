@@ -13,9 +13,10 @@ I first got the code functional and having learned about Inquirer today in class
 prompt the user for me. I ran into trouble getting the value to be usable from the checkbox type, so all prompts are inputs aside from the confirm. 
 [View a screen recording of it here!!!](https://drive.google.com/file/d/1Ho41_IgmF8Qq7ozpuFeVEa5DL58nO1Jx/view)
 ### RESOURCES USED
+*Links to the resources*
     [NPM](https://www.npmjs.com/)
-    [Inquirer](https://www.npmjs.com/package/inquirer)
-    [Axios](https://www.npmjs.com/package/axios)
-    [DOTENV](https://www.npmjs.com/package/dotenv)
+    [Inquirer.](https://www.npmjs.com/package/inquirer)
+    [Axios.](https://www.npmjs.com/package/axios)
+    [DOTENV.](https://www.npmjs.com/package/dotenv)
     [Spotify](https://www.npmjs.com/package/spotify)
     [Moment JS](https://www.npmjs.com/package/moment)
